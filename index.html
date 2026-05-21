@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salehub Fashion</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="public/css/styles.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container d-flex align-items-center justify-content-between position-relative">
+
+      <!-- MOBILE MENU -->
+      <button class="navbar-toggler border-0" data-bs-toggle="collapse" data-bs-target="#menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <!-- MENU -->
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav">
+
+          <li class="nav-item">
+            <a class="nav-link active" href="#">
+              HOME
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              PAGES
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              WOMEN
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              MEN
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              BLOG
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <!-- LOGO -->
+      <a href="#" class="navbar-brand">
+        Salehub
+      </a>
+
+      <!-- ICONS -->
+      <div class="navbar-right d-flex align-items-center">
+
+        <a href="#" class="nav-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+
+        <a href="#" class="nav-icon">
+          <i class="fa-regular fa-user"></i>
+        </a>
+
+        <a href="#" class="nav-icon">
+          <i class="fa-regular fa-heart"></i>
+        </a>
+
+        <a href="#" class="nav-icon cart-icon">
+          <i class="fa-solid fa-bag-shopping"></i>
+
+          <span class="cart-count">
+            2
+          </span>
+        </a>
+
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+
+    <img src="public/image/h2.jpg" alt="Hero Banner" class="hero-bg">
+
+    <div class="hero-overlay"></div>
+
+    <div class="container">
+      <div class="hero-content">
+
+        <small>NEW COLLECTION</small>
+
+        <h1>
+          FIND YOUR <br>
+          PERFECT
+        </h1>
+
+        <p>
+          Uncompromising in style, quality and performance.
+        </p>
+
+        <a href="#" class="btn-shop">
+          SHOP THE COLLECTION
+        </a>
+
+        <div class="hero-dots">
+          <span class="active"></span>
+          <span></span>
+          <span></span>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- DENIM COLLECTION -->
+  <section class="section">
+    <div class="container">
+      <div class="section-title">
+        <h2>DENIM COLLECTION</h2>
+        <p>Explore denim fashion collection with premium styles. Featuring timeless denim with a modern twist and edge.
+        </p>
+      </div>
+      <div class="denim-grid">
+        <div class="denim-left">
+          <img src="public/image/1_423afc51-89a7-412d-b94e-1905f35af736_540x.jpg" alt="Denim Jacket">
+          <div class="overlay">
+            <h3>DENIM JACKET</h3>
+            <p>Classic denim fashion for modern lifestyle.</p>
+            <a href="#">SHOP NOW</a>
+          </div>
+        </div>
+        <div class="denim-right">
+          <div class="denim-small">
+            <img src="public/image/1_d8a840f3-d40e-4d28-8191-715f1a7874e4_720x.jpg" alt="Denim Mini Skirt">
+            <div class="overlay">
+              <h5>DENIM MINI SKIRT</h5>
+            </div>
+          </div>
+          <div class="denim-small">
+            <img src="public/image/1_c0df3076-19c1-4535-a664-270cf6e05ab5_720x.jpg" alt="Hooded Denim">
+            <div class="overlay">
+              <h5>HOODED DENIM</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS — WE LOVE -->
+  <section class="section pt-0" style="background:#ffffff;">
+    <div class="container">
+      <div class="section-title">
+        <h2>WE LOVE ❤</h2>
+      </div>
+      <div class="products-grid">
+
+        <!-- Card 1 -->
+        <div>
+          <div class="product-card">
+            <div class="product-img">
+              <img src="public/image/1_b5ddc236-576a-4f61-9439-8ccc8f44d2c4_720x.jpg" alt="Fashion Winter Coat">
+              <div class="product-actions">
+                <button class="action-btn" title="Add to wishlist"><i class="fa-regular fa-heart"></i></button>
+                <button class="action-btn" title="Add to cart"><i class="fa-solid fa-bag-shopping"></i></button>
+                <button class="action-btn" title="Quick view"><i class="fa-regular fa-eye"></i></button>
+              </div>
+            </div>
+            <h4>Fashion Winter Coat</h4>
+            <div class="stars">★★★★★</div>
+            <div class="price">$59.00</div>
+            <div class="product-swatches">
+              <span class="swatch active" style="background:#c5a882;"></span>
+              <span class="swatch" style="background:#111;"></span>
+              <span class="swatch" style="background:#8b6c5c;"></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div>
+          <div class="product-card">
+            <div class="product-img">
+              <img src="public/image/1_c02958e8-91cd-4497-83ce-e5509baad4b4_720x.jpg" alt="Denim Blue Jacket">
+              <div class="product-actions">
+                <button class="action-btn" title="Add to wishlist"><i class="fa-regular fa-heart"></i></button>
+                <button class="action-btn" title="Add to cart"><i class="fa-solid fa-bag-shopping"></i></button>
+                <button class="action-btn" title="Quick view"><i class="fa-regular fa-eye"></i></button>
+              </div>
+            </div>
+            <h4>Denim Blue Jacket</h4>
+            <div class="stars">★★★★★</div>
+            <div class="price">$72.00</div>
+            <div class="product-swatches">
+              <span class="swatch active" style="background:#5c7da0;"></span>
+              <span class="swatch" style="background:#111;"></span>
+              <span class="swatch" style="background:#a0c0d0;"></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div>
+          <div class="product-card">
+            <div class="product-img">
+              <img src="public/image/1_d8a840f3-d40e-4d28-8191-715f1a7874e4_720x.jpg" alt="Casual Green Shirt">
+              <div class="product-actions">
+                <button class="action-btn" title="Add to wishlist"><i class="fa-regular fa-heart"></i></button>
+                <button class="action-btn" title="Add to cart"><i class="fa-solid fa-bag-shopping"></i></button>
+                <button class="action-btn" title="Quick view"><i class="fa-regular fa-eye"></i></button>
+              </div>
+            </div>
+            <h4>Casual Green Shirt</h4>
+            <div class="stars">★★★★★</div>
+            <div class="price">$44.00</div>
+            <div class="product-swatches">
+              <span class="swatch active" style="background:#556b2f;"></span>
+              <span class="swatch" style="background:#8b7355;"></span>
+              <span class="swatch" style="background:#fff; border:1px solid #ddd;"></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div>
+          <div class="product-card">
+            <div class="product-img">
+              <img src="public/image/h5.jpg" alt="Brown Leather Jacket">
+              <div class="product-actions">
+                <button class="action-btn" title="Add to wishlist"><i class="fa-regular fa-heart"></i></button>
+                <button class="action-btn" title="Add to cart"><i class="fa-solid fa-bag-shopping"></i></button>
+                <button class="action-btn" title="Quick view"><i class="fa-regular fa-eye"></i></button>
+              </div>
+            </div>
+            <h4>Brown Leather Jacket</h4>
+            <div class="stars">★★★★★</div>
+            <div class="price">$85.00</div>
+            <div class="product-swatches">
+              <span class="swatch active" style="background:#6b4226;"></span>
+              <span class="swatch" style="background:#111;"></span>
+              <span class="swatch" style="background:#c19a6b;"></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div>
+          <div class="product-card">
+            <div class="product-img">
+              <img src="public/image/1_b5ddc236-576a-4f61-9439-8ccc8f44d2c4_720x.jpg" alt="Casual Long Dress">
+              <div class="product-actions">
+                <button class="action-btn" title="Add to wishlist"><i class="fa-regular fa-heart"></i></button>
+                <button class="action-btn" title="Add to cart"><i class="fa-solid fa-bag-shopping"></i></button>
+                <button class="action-btn" title="Quick view"><i class="fa-regular fa-eye"></i></button>
+              </div>
+            </div>
+            <h4>Casual Long Dress</h4>
+            <div class="stars">★★★★★</div>
+            <div class="price">$67.00</div>
+            <div class="product-swatches">
+              <span class="swatch active" style="background:#d4a5a5;"></span>
+              <span class="swatch" style="background:#111;"></span>
+              <span class="swatch" style="background:#e8d5b7;"></span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- AUTUMN BANNER -->
+  <section class="autumn-banner">
+
+    <img src="public/image/banner_3_900x.png" alt="Autumn Banner" class="banner-bg">
+
+    <div class="banner-overlay"></div>
+
+    <div class="banner-content">
+
+      <span>NEW ARRIVAL</span>
+
+      <h2>Autumn is Coming</h2>
+
+      <p>
+        The lifestyle collection 2024 trends
+      </p>
+
+      <a href="#" class="btn-shop">
+        VIEW MORE
+      </a>
+
+    </div>
+
+  </section>
+  <!-- FEATURED PRODUCT -->
+  <section class="section featured">
+    <div class="container">
+      <div class="section-title">
+        <h2>FEATURED PRODUCT</h2>
+      </div>
+      <div class="row align-items-center g-5">
+
+        <!-- IMAGE SLIDER -->
+        <div class="col-lg-6">
+          <div class="featured-slider">
+            <div class="featured-slides">
+              <div class="featured-slide active">
+                <img src="public/image/1_bc70b428-ba01-434a-87f7-7fc276929722_540x.jpg" alt="Featured 1">
+              </div>
+              <div class="featured-slide">
+                <img src="public/image/1_423afc51-89a7-412d-b94e-1905f35af736_540x.jpg" alt="Featured 2">
+              </div>
+              <div class="featured-slide">
+                <img src="public/image/1_c0df3076-19c1-4535-a664-270cf6e05ab5_720x.jpg" alt="Featured 3">
+              </div>
+              <div class="featured-slide">
+                <img src="public/image/1_c02958e8-91cd-4497-83ce-e5509baad4b4_720x.jpg" alt="Featured 4">
+              </div>
+            </div>
+            <div class="slider-dots">
+              <button class="slider-dot active" data-index="0"></button>
+              <button class="slider-dot" data-index="1"></button>
+              <button class="slider-dot" data-index="2"></button>
+              <button class="slider-dot" data-index="3"></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- INFO -->
+        <div class="col-lg-6">
+          <div class="featured-info">
+            <h3>Levi's essential western denim shirt</h3>
+            <div class="stars">★★★★☆</div>
+            <div class="featured-price">$120.00</div>
+
+            <div class="product-label">COLOR: <span id="colorName">DARKOLIVEGREEN</span></div>
+            <div class="color-list">
+              <div class="color active" style="background:#556b2f;" data-color="DARKOLIVEGREEN"></div>
+              <div class="color" style="background:#000;" data-color="BLACK"></div>
+              <div class="color" style="background:#d96a6a;" data-color="ROSE"></div>
+              <div class="color" style="background:#fff;border:1px solid #ddd;" data-color="WHITE"></div>
+            </div>
+
+            <div class="product-label mt-4">SIZE: <span id="sizeName">XS</span></div>
+            <div class="size-list">
+              <button class="size-btn active">XS</button>
+              <button class="size-btn">S</button>
+              <button class="size-btn disabled">M</button>
+              <button class="size-btn">L</button>
+              <button class="size-btn disabled">XL</button>
+            </div>
+
+            <button class="btn-add">ADD TO BAG</button>
+            <button class="btn-paypal">Pay with <b>PayPal</b></button>
+
+            <div class="size-chart">
+              <i class="fa-regular fa-credit-card"></i>
+              SIZE CHART
+            </div>
+
+            <p class="featured-desc">
+              Steele's Lena Dress features a smocked bust, off the shoulder sleeves with eyelet design,
+              and mini cut skirt with raw hem. Crafted from 100% premium denim.
+            </p>
+
+            <ul class="feature-list">
+              <li>MACHINE WASH AT MAX.TEMP. 30° C - NORMAL PROCESS</li>
+              <li>DO NOT BLEACH</li>
+              <li>DO NOT TUMBLE DRY</li>
+              <li>IRON AT MAX. TEMP. OF 110 °C WITHOUT STEAM</li>
+              <li>DO NOT DRY CLEAN</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHOP THE LOOKS -->
+  <section class="section" style="background:#ffffff;">
+    <div class="container">
+      <div class="section-title">
+        <h2>SHOP THE LOOKS</h2>
+        <p>The biggest collections for you. Get the most inspiring fashion looks and upgrade your wardrobe with style.
+        </p>
+      </div>
+      <div class="looks-grid">
+        <div class="looks-item"><img src="public/image/1_bc70b428-ba01-434a-87f7-7fc276929722_540x.jpg" alt="Look 1">
+        </div>
+        <div class="looks-item"><img src="public/image/1_b5ddc236-576a-4f61-9439-8ccc8f44d2c4_720x.jpg" alt="Look 2">
+        </div>
+        <div class="looks-item"><img src="public/image/1_afb70b63-ea30-4380-b7d3-8e5e765569aa_540x.jpg" alt="Look 3">
+        </div>
+        <div class="looks-item"><img src="public/image/1_751dc619-60a9-4ec4-acfe-bad3a8e83ecb_900x.jpg" alt="Look 4">
+        </div>
+        <div class="looks-item"><img src="public/image/1_f88eabc9-069f-4203-bc75-c72f896163ab_720x.jpg" alt="Look 5">
+        </div>
+        <div class="looks-item"><img src="public/image/1_96a01a8d-3536-48d8-83ec-6279e0ee6f8e_540x.jpg" alt="Look 6">
+        </div>
+        <div class="looks-item"><img src="public/image/1_8624266d-ffc8-44db-b030-5f62c62138d5_540x.jpg" alt="Look 7">
+        </div>
+        <div class="looks-item"><img src="public/image/1_751dc619-60a9-4ec4-acfe-bad3a8e83ecb_900x.jpg" alt="Look 8">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FROM OUR BLOG -->
+  <section class="section pt-0">
+    <div class="container">
+      <div class="section-title">
+        <h2>FROM OUR BLOG</h2>
+      </div>
+      <div class="row g-4">
+
+        <div class="col-6 col-lg-3">
+          <div class="blog-card">
+            <img src="public/image/1_7431498e-5c7a-4907-9713-12e276efcc2f_720x.jpg" alt="Blog 1">
+            <div class="blog-content">
+              <div class="blog-meta">Fashion · Feb 14, 2025</div>
+              <h3>5 Sweet Outfit Ideas You'll Want Beyond Valentine's Day</h3>
+              <p>Discover stylish outfits and fashion inspiration for every occasion.</p>
+              <a href="#" class="blog-read">READ MORE</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+          <div class="blog-card">
+            <img src="public/image/1_423afc51-89a7-412d-b94e-1905f35af736_540x.jpg" alt="Blog 2">
+            <div class="blog-content">
+              <div class="blog-meta">Style · Mar 2, 2025</div>
+              <h3>How To Be 'Head Wife Material' According to A Female Comedian</h3>
+              <p>Premium lifestyle collections and fashion insights for modern women.</p>
+              <a href="#" class="blog-read">READ MORE</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+          <div class="blog-card">
+            <img src="public/image/1_35559729-bb4f-477a-afbb-d695451b9719_540x.jpg" alt="Blog 3">
+            <div class="blog-content">
+              <div class="blog-meta">Winter · Jan 20, 2025</div>
+              <h3>The Social Influencer's Dress Transformation Is as Daring as Daring</h3>
+              <p>Explore premium winter fashion trends this season.</p>
+              <a href="#" class="blog-read">READ MORE</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-lg-3">
+          <div class="blog-card">
+            <img src="public/image/1_225b9840-5824-4a66-801e-fa5640519db5_540x.jpg" alt="Blog 4">
+            <div class="blog-content">
+              <div class="blog-meta">Minimal · Apr 5, 2025</div>
+              <h3>5 Sweet Outfit Ideas You'll Want Beyond Valentine's Day</h3>
+              <p>Elegant outfit inspiration for everyday life and special occasions.</p>
+              <a href="#" class="blog-read">READ MORE</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- INFO BAR -->
+  <section class="info-bar">
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-md-4">
+          <div class="info-item">
+            <i class="fa-solid fa-truck-fast"></i>
+            Free Shipping Worldwide
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="info-item">
+            <i class="fa-solid fa-headset"></i>
+            Support 24/7 Customer Service
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="info-item">
+            <i class="fa-solid fa-rotate-left"></i>
+            30 Days Return Policy
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="row g-5">
+
+        <div class="col-lg-3">
+          <h5>Salehub</h5>
+          <p style="font-size:14px;color:#666;line-height:1.8;">
+            Premium fashion collections and modern lifestyle outfits for everyone.
+          </p>
+          <div class="payment-icons">
+            <span class="payment-icon">VISA</span>
+            <span class="payment-icon">MC</span>
+            <span class="payment-icon">AMEX</span>
+            <span class="payment-icon">PayPal</span>
+          </div>
+          <div class="footer-social">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <h5>About Us</h5>
+          <ul>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Careers</li>
+            <li>Privacy Policy</li>
+            <li>Terms of Service</li>
+            <li>Affiliate Program</li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3">
+          <h5>Our Shop</h5>
+          <ul>
+            <li>New Arrivals</li>
+            <li>Women</li>
+            <li>Men</li>
+            <li>Accessories</li>
+            <li>Sale Collection</li>
+            <li>Gift Cards</li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3">
+          <h5>Newsletter</h5>
+          <p style="font-size:13px;color:#666;margin-bottom:16px;">
+            Subscribe to get the latest updates and offers from our store.
+          </p>
+          <div class="newsletter">
+            <input type="email" placeholder="Your Email">
+            <button>JOIN</button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        Copyright © 2025 Salehub Fashion &nbsp;|&nbsp; <a href="#" style="color:#666;">Privacy Policy</a> &nbsp;|&nbsp;
+        <a href="#" style="color:#666;">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // ===== COLOR SELECT (Featured) =====
+    const colors = document.querySelectorAll('.color-list .color');
+    const colorName = document.getElementById('colorName');
+
+    colors.forEach(color => {
+      color.addEventListener('click', () => {
+        colors.forEach(c => c.classList.remove('active'));
+        color.classList.add('active');
+        const selected = color.getAttribute('data-color');
+        if (selected && colorName) colorName.innerText = selected;
+      });
+    });
+
+    // ===== SIZE SELECT (Featured) =====
+    const sizeBtns = document.querySelectorAll('.size-btn');
+    const sizeName = document.getElementById('sizeName');
+
+    sizeBtns.forEach(btn => {
+      if (btn.classList.contains('disabled')) return;
+      btn.addEventListener('click', () => {
+        sizeBtns.forEach(b => { if (!b.classList.contains('disabled')) b.classList.remove('active'); });
+        btn.classList.add('active');
+        if (sizeName) sizeName.innerText = btn.innerText.trim();
+      });
+    });
+
+    // ===== FEATURED IMAGE SLIDER =====
+    const slides = document.querySelectorAll('.featured-slide');
+    const dots = document.querySelectorAll('.slider-dot');
+    let currentSlide = 0;
+
+    function goToSlide(index) {
+      slides[currentSlide].classList.remove('active');
+      dots[currentSlide].classList.remove('active');
+      currentSlide = index;
+      slides[currentSlide].classList.add('active');
+      dots[currentSlide].classList.add('active');
+    }
+
+    dots.forEach(dot => {
+      dot.addEventListener('click', () => {
+        goToSlide(parseInt(dot.getAttribute('data-index')));
+      });
+    });
+
+    setInterval(() => {
+      goToSlide((currentSlide + 1) % slides.length);
+    }, 4000);
+
+    // ===== PRODUCT SWATCHES =====
+    document.querySelectorAll('.product-swatches').forEach(group => {
+      group.querySelectorAll('.swatch').forEach(swatch => {
+        swatch.addEventListener('click', () => {
+          group.querySelectorAll('.swatch').forEach(s => s.classList.remove('active'));
+          swatch.classList.add('active');
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>
